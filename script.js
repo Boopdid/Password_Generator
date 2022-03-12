@@ -83,8 +83,13 @@ function generatePassword() {
 
   var specialChara = confirm("Would you like to include special characters?");
   console.log(specialChara);
-
-  return "Temporary password!";
+  var generatedPassword = "";
+  for (var i = 0; i < passwordLength; i++) {
+    console.log(i);
+    generatedPassword = generatedPassword.concat("a");
+    console.log(generatedPassword);
+  }
+  return generatedPassword;
 }
 
 // Write password to the #password input
