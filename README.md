@@ -8,7 +8,7 @@ https://boopdid.github.io/Password_Generator/
 
 This is a password generator that takes lowercase, uppercase numbers and special characters to randomize a password between 8-128 characters.
 
-##Preview
+## Preview
 
 ![Preview Image of Password Generator](assets/images/password-generator-pic.png)
 
